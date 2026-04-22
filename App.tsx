@@ -31,8 +31,7 @@ const FALLBACK_DATA: PortfolioData = {
     { title: "Plasma Technology", icon: "fa-atom", description: "Cold Plasma Physics and Sterilization Systems." }
   ],
   experience: [
-    { role: "Chair person", organization: "IEEE PES RUSBC", period: "2024 - Present", description: "Strategic leadership and branch management.", type: "leadership" },
-    { role: "Secretary", organization: "IEEE RAS RUSBC", period: "2023 - 2024", description: "Administrative operations and workshop coordination for Robotics and Automation Society.", type: "leadership" }
+    { role: "Chair person", organization: "IEEE PES RUSBC", period: "2024 - Present", description: "Strategic leadership and branch management.", type: "leadership" }
   ],
   projects: [
     { title: "Plasma-Ionics System", description: "Innovative plasma plumes for treatment.", image: "https://picsum.photos/seed/plasma/800/450", tags: ["EEE", "Research"] }
@@ -131,7 +130,7 @@ const SocialLinks: React.FC<{ profile: Profile; className?: string; iconSize?: s
 const AIChatBot: React.FC<{ data: PortfolioData }> = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: 'user' | 'bot', text: string }[]>([
-    { role: 'bot', text: `Hi! I'm Atik's AI assistant. Ask me anything about his work in Plasma Technology or IEEE!` }
+    { role: 'bot', text: `Hi! I'm Atik's AI assistant. Ask me anything about his work in Robotics or IEEE!` }
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
