@@ -318,6 +318,7 @@ const ProjectModal: React.FC<{ project: Project; onClose: () => void }> = ({ pro
 
 const App: React.FC = () => {
   const [data, setData] = useState<PortfolioData>(FALLBACK_DATA);
+  console.log("current profile image:", data.profile.image);
   const [darkMode, setDarkMode] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [loading, setLoading] = useState(true);
