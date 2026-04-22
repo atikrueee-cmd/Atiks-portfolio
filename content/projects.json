@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Plasma-Ionics Sterilization System",
+    "description": "Innovative plasma plumes for wastewater treatment and agricultural applications.",
+    "detailedDescription": "This research project focuses on the development of atmospheric pressure cold plasma plumes tailored for sterilization. The system utilizes plasma-ionics principles to generate reactive oxygen and nitrogen species (RONS), which are highly effective in breaking down organic pollutants in wastewater and eliminating pathogens in agricultural seeds and soil. The project has been formulated as an IEEE EPICS proposal, aiming to provide sustainable, chemical-free sanitation solutions for community-level water management.",
+    "features": [
+      "Cold Plasma Generation at Atmospheric Pressure",
+      "Wastewater Organic Pollutant Degradation",
+      "Seed Germination Enhancement",
+      "Chemical-free Sterilization",
+      "Sustainable Engineering Design"
+    ],
+    "image": "https://picsum.photos/seed/plasma/1200/800",
+    "tags": ["Plasma Physics", "Lab Research", "EEE", "Sustainability"],
+    "github": "https://github.com"
+  },
+  {
+    "title": "Donor Management Platform",
+    "description": "Custom software built on Google Apps Script and deployed via GitHub for institutional donor tracking.",
+    "detailedDescription": "The Donor Management Platform is a tailored solution designed for internal institutional use to streamline the tracking and management of donor data. Built using Google Apps Script, it integrates seamlessly with the Google Workspace ecosystem while being managed and deployed through GitHub. The platform features automated reporting, secure data handling, and an intuitive user interface that reduces administrative overhead and improves data accuracy for long-term donor engagement.",
+    "features": [
+      "Automated Data Entry & Reporting",
+      "GitHub-based CI/CD Workflow",
+      "Secure Access Control",
+      "Integration with Google Sheets & Drive",
+      "Real-time Dashboard Analytics"
+    ],
+    "image": "https://picsum.photos/seed/software/1200/800",
+    "tags": ["Google Apps Script", "JavaScript", "GitHub", "Cloud Tools"],
+    "github": "https://github.com"
+  },
+  {
+    "title": "PowerTalk 2026",
+    "description": "Managed registration, technical itineraries, and social media engagement for IEEE PES RU Student Branch.",
+    "detailedDescription": "PowerTalk 2026 was a major flagship event organized under the IEEE Power & Energy Society Rajshahi University Student Branch. As the lead organizer, I oversaw the entire technical and administrative lifecycle of the event. This included managing a high-volume registration system, coordinating technical speaker itineraries, and leading a cross-functional team for social media engagement. The event focused on 'Navigating Crisis and Career', providing students with critical insights into the EEE industry's future.",
+    "features": [
+      "Strategic Event Management",
+      "Cross-functional Team Leadership",
+      "High-volume Registration Analysis",
+      "Industry Networking & Coordination",
+      "Technical Content Curation"
+    ],
+    "image": "https://picsum.photos/seed/powertalk/1200/800",
+    "tags": ["Leadership", "Event Management", "IEEE", "Public Speaking"],
+    "link": "https://google.com"
+  }
+]

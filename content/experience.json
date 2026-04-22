@@ -1,0 +1,23 @@
+[
+  {
+    "role": "Chair person",
+    "organization": "IEEE PES RUSBC",
+    "period": "2024 - Present",
+    "description": "Strategic planning and student branch management. Lead Organizer for PowerTalk 2026: Navigating Crisis and Career.",
+    "type": "leadership"
+  },
+  {
+    "role": "B.Sc. in Electrical and Electronic Engineering",
+    "organization": "University of Rajshahi",
+    "period": "2020 - 2026",
+    "description": "EEE 6th Batch. Specialized in Engineering Research and Plasma-Ionics applications. Completed April 2026.",
+    "type": "academic"
+  },
+  {
+    "role": "Secretary",
+    "organization": "IEEE RAS RUSB",
+    "period": "2023 - 2024",
+    "description": "Administrative operations and workshop coordination.",
+    "type": "leadership"
+  }
+]

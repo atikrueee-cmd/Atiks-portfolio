@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Plasma Technology & Ionics",
+    "icon": "fa-atom",
+    "description": "Cold Plasma Physics, Plasma-Ionics, Ozone Safety, and Sterilization Systems for wastewater and agriculture."
+  },
+  {
+    "title": "Environmental Engineering",
+    "icon": "fa-leaf",
+    "description": "Utilizing EEE principles to solve water scarcity and agricultural challenges through technical innovation."
+  },
+  {
+    "title": "Technical Innovation",
+    "icon": "fa-lightbulb",
+    "description": "Applying engineering insights to create sustainable solutions for community-level sanitation."
+  }
+]

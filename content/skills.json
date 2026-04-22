@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Engineering Research",
+    "items": ["Cold Plasma Physics", "Plasma-Ionics", "Ozone Safety", "Sterilization Systems"]
+  },
+  {
+    "category": "Technical Tools",
+    "items": ["MATLAB", "Google Apps Script", "GitHub", "Circuit Design"]
+  },
+  {
+    "category": "Laboratory Expertise",
+    "items": ["Pharmaceutical Analytics", "Buffer Formulation", "Solution Preparation", "pH Control"]
+  },
+  {
+    "category": "Leadership",
+    "items": ["Strategic Planning", "Student Branch Management", "Event Coordination"]
+  }
+]

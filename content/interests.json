@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Professional Photography",
+    "icon": "fa-camera",
+    "description": "Advanced manual control of mobile camera systems, including ISO, shutter speed, and white balance calibration."
+  },
+  {
+    "title": "Problem Solving",
+    "icon": "fa-puzzle-piece",
+    "description": "Passionate about engineering projects that solve real-world challenges through creative technical solutions."
+  },
+  {
+    "title": "Traveling",
+    "icon": "fa-plane-departure",
+    "description": "Exploring new cultures and environments, which often inspires my research in environmental engineering."
+  }
+]
