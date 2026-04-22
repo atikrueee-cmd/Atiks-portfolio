@@ -18,20 +18,21 @@ const FALLBACK_DATA: PortfolioData = {
     name: "Md Atik Sheikh",
     position: "Chair person, IEEE PES RUSBC",
     university: "University of Rajshahi",
-    bio: "Graduate Electrical and Electronic Engineer specializing in Plasma Technology and environmental sustainability. Research focused on wastewater treatment and agricultural sterilization, with leadership in the IEEE Power & Energy Society.",
+    bio: "Final-year Electrical and Electronic Engineering student at the University of Rajshahi, specializing in Plasma Technology for environmental sustainability. My research explores plasma-based solutions for wastewater treatment and agricultural sterilization. As Chairperson of the IEEE Power & Energy Society Student Branch Chapter, I lead initiatives that foster innovation, collaboration, and sustainable energy practices among peers.",
     image: "/atik.jpg",
     email: "atikofficial111@gmail.com",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/atikrueee-cmd",
+    linkedin: "https://www.linkedin.com/in/md-atik-sheikh-4a014724b",
     scholar: "https://scholar.google.com",
     orcid: "https://orcid.org",
-    facebook: "https://facebook.com"
+    facebook: "https://www.facebook.com/atiksheikh11/"
   },
   research: [
     { title: "Plasma Technology", icon: "fa-atom", description: "Cold Plasma Physics and Sterilization Systems." }
   ],
   experience: [
-    { role: "Chair person", organization: "IEEE PES RUSBC", period: "2024 - Present", description: "Strategic leadership and branch management.", type: "leadership" }
+    { role: "Chair person", organization: "IEEE PES RUSBC", period: "2024 - Present", description: "Strategic leadership and branch management.", type: "leadership" },
+    { role: "Secretary", organization: "IEEE RAS RUSBC", period: "2023 - 2024", description: "Administrative operations and workshop coordination for Robotics and Automation Society.", type: "leadership" }
   ],
   projects: [
     { title: "Plasma-Ionics System", description: "Innovative plasma plumes for treatment.", image: "https://picsum.photos/seed/plasma/800/450", tags: ["EEE", "Research"] }
@@ -130,7 +131,7 @@ const SocialLinks: React.FC<{ profile: Profile; className?: string; iconSize?: s
 const AIChatBot: React.FC<{ data: PortfolioData }> = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: 'user' | 'bot', text: string }[]>([
-    { role: 'bot', text: `Hi! I'm Atik's AI assistant. Ask me anything about his work in Robotics or IEEE!` }
+    { role: 'bot', text: `Hi! I'm Atik's AI assistant. Ask me anything about his work in Plasma Technology or IEEE!` }
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
