@@ -18,7 +18,7 @@ const FALLBACK_DATA: PortfolioData = {
     name: "Md Atik Sheikh",
     position: "Chair person, IEEE PES RUSBC",
     university: "University of Rajshahi",
-    bio: "Graduate Electrical and Electronic Engineer specializing in Plasma Technology and environmental sustainability. Research focused on wastewater treatment and agricultural sterilization, with leadership in the IEEE Power & Energy Society.",
+    bio: "Final-year Electrical and Electronic Engineering student at the University of Rajshahi, specializing in Plasma Technology for environmental sustainability. My research explores plasma-based solutions for wastewater treatment and agricultural sterilization. As Chairperson of the IEEE Power & Energy Society Student Branch Chapter, I lead initiatives that foster innovation, collaboration, and sustainable energy practices among peers.",
     image: "/atik.jpg",
     email: "atikofficial111@gmail.com",
     github: "https://github.com/atikrueee-cmd",
@@ -28,22 +28,33 @@ const FALLBACK_DATA: PortfolioData = {
     facebook: "https://www.facebook.com/atiksheikh11/"
   },
   research: [
-    { title: "Plasma Technology", icon: "fa-atom", description: "Cold Plasma Physics and Sterilization Systems." }
+    { title: "Plasma Technology & Ionics", icon: "fa-atom", description: "Cold Plasma Physics, Plasma-Ionics, Ozone Safety, and Sterilization Systems for wastewater and agriculture." },
+    { title: "Environmental Engineering", icon: "fa-leaf", description: "Utilizing EEE principles to solve water scarcity and agricultural challenges through technical innovation." },
+    { title: "Technical Innovation", icon: "fa-lightbulb", description: "Applying engineering insights to create sustainable solutions for community-level sanitation." }
   ],
   experience: [
-    { role: "Chair person", organization: "IEEE PES RUSBC", period: "2024 - Present", description: "Strategic leadership and branch management.", type: "leadership" }
+    { role: "Chair person", organization: "IEEE PES RUSBC", period: "2024 - Present", description: "Strategic planning and student branch management. Lead Organizer for PowerTalk 2026: Navigating Crisis and Career.", type: "leadership" },
+    { role: "B.Sc. in Electrical and Electronic Engineering", organization: "University of Rajshahi", period: "2020 - 2026", description: "EEE 6th Batch. Specialized in Engineering Research and Plasma-Ionics applications. Completed April 2026.", type: "academic" },
+    { role: "Secretary", organization: "IEEE RAS RUSBC", period: "2023 - 2024", description: "Administrative operations and workshop coordination for Robotics and Automation Society.", type: "leadership" }
   ],
   projects: [
-    { title: "Plasma-Ionics System", description: "Innovative plasma plumes for treatment.", image: "https://picsum.photos/seed/plasma/800/450", tags: ["EEE", "Research"] }
+    { title: "Plasma-Ionics Sterilization System", description: "Innovative plasma plumes for wastewater treatment and agricultural applications.", detailedDescription: "This research project focuses on the development of atmospheric pressure cold plasma plumes tailored for sterilization. The system utilizes plasma-ionics principles to generate reactive oxygen and nitrogen species (RONS), which are highly effective in breaking down organic pollutants in wastewater and eliminating pathogens in agricultural seeds and soil. The project has been formulated as an IEEE EPICS proposal, aiming to provide sustainable, chemical-free sanitation solutions for community-level water management.", features: ["Cold Plasma Generation at Atmospheric Pressure", "Wastewater Organic Pollutant Degradation", "Seed Germination Enhancement", "Chemical-free Sterilization", "Sustainable Engineering Design"], image: "https://picsum.photos/seed/plasma/1200/800", tags: ["Plasma Physics", "Lab Research", "EEE", "Sustainability"], github: "https://github.com" },
+    { title: "Donor Management Platform", description: "Custom software built on Google Apps Script and deployed via GitHub for institutional donor tracking.", detailedDescription: "The Donor Management Platform is a tailored solution designed for internal institutional use to streamline the tracking and management of donor data. Built using Google Apps Script, it integrates seamlessly with the Google Workspace ecosystem while being managed and deployed through GitHub. The platform features automated reporting, secure data handling, and an intuitive user interface that reduces administrative overhead and improves data accuracy for long-term donor engagement.", features: ["Automated Data Entry & Reporting", "GitHub-based CI/CD Workflow", "Secure Access Control", "Integration with Google Sheets & Drive", "Real-time Dashboard Analytics"], image: "https://picsum.photos/seed/software/1200/800", tags: ["Google Apps Script", "JavaScript", "GitHub", "Cloud Tools"], github: "https://github.com" },
+    { title: "PowerTalk 2026", description: "Managed registration, technical itineraries, and social media engagement for IEEE PES RU Student Branch.", detailedDescription: "PowerTalk 2026 was a major flagship event organized under the IEEE Power & Energy Society Rajshahi University Student Branch. As the lead organizer, I oversaw the entire technical and administrative lifecycle of the event. This included managing a high-volume registration system, coordinating technical speaker itineraries, and leading a cross-functional team for social media engagement. The event focused on 'Navigating Crisis and Career', providing students with critical insights into the EEE industry's future.", features: ["Strategic Event Management", "Cross-functional Team Leadership", "High-volume Registration Analysis", "Industry Networking & Coordination", "Technical Content Curation"], image: "https://picsum.photos/seed/powertalk/1200/800", tags: ["Leadership", "Event Management", "IEEE", "Public Speaking"], link: "https://google.com" }
   ],
   skills: [
-    { category: "Engineering", items: ["Plasma Physics", "Circuit Design"] }
+    { category: "Engineering Research", items: ["Cold Plasma Physics", "Plasma-Ionics", "Ozone Safety", "Sterilization Systems"] },
+    { category: "Technical Tools", items: ["MATLAB", "Google Apps Script", "GitHub", "Circuit Design"] },
+    { category: "Laboratory Expertise", items: ["Pharmaceutical Analytics", "Buffer Formulation", "Solution Preparation", "pH Control"] },
+    { category: "Leadership", items: ["Strategic Planning", "Student Branch Management", "Event Coordination"] }
   ],
   achievements: [
     { title: "Best Student Volunteer", date: "2023", issuer: "IEEE Bangladesh Section" }
   ],
   interests: [
-    { title: "Photography", icon: "fa-camera", description: "Advanced manual calibration." }
+    { title: "Professional Photography", icon: "fa-camera", description: "Advanced manual control of mobile camera systems, including ISO, shutter speed, and white balance calibration." },
+    { title: "Problem Solving", icon: "fa-puzzle-piece", description: "Passionate about engineering projects that solve real-world challenges through creative technical solutions." },
+    { title: "Traveling", icon: "fa-plane-departure", description: "Exploring new cultures and environments, which often inspires my research in environmental engineering." }
   ]
 };
 
